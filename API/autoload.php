@@ -1,7 +1,6 @@
 <?php 
 spl_autoload_register(function($class){
   $GLOBALS['path'] = "";
-   $Test = "";
   $paths = [
     "Controller" => function(){
       $GLOBALS['path']= "Controller/";
